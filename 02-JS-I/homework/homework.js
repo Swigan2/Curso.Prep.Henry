@@ -4,7 +4,7 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 012;
+const nuevoNum = 12;
 
 // Crea una variable booleana:
 const nuevoBool = false;
@@ -65,9 +65,10 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y)
+  if (x===y){
     return true;
-}
+  }
+
   else{
     return false;
   }
@@ -76,8 +77,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-if (str1.length === str2.length)
+if (str1.length === str2.length){
   return true;
+
 }
   else{
     return false;
@@ -87,9 +89,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num <90)
+  if (num <90){
     return true;
-}
+  
+  }
   else{
     return false;
   } 
@@ -98,7 +101,8 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
- return >50;
+ return num > 50;
+}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
@@ -249,9 +253,9 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   if( letra ==="a" || letra ==="e"|| letra ==="i"|| letra ==="o" || letra ==="u"){
-    return "es voacl
+    return "es vocal"
   }
-  else (letra.length >1){
+  else (letra.length >1) {
     return "Dato incorrecto";
   } 
   
